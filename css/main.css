@@ -35,7 +35,7 @@ h5 {
 }
 .btn {
 	background-color: transparent;
-	color: #810038;
+	color: #63c7c7;
 	font-size: 14px;
 	font-weight: 600;
 	border: 0;
@@ -44,7 +44,7 @@ h5 {
 	border-radius: 0;
 	display: inline-block;
 	text-transform: uppercase;
-	border: 1px solid #810038;
+	border: 1px solid #63c7c7;
 	padding: 10px 15px;
 }
 .btn:hover, .btn:focus {
@@ -65,7 +65,7 @@ h5 {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #810038;
+	color: #63c7c7;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -106,12 +106,13 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	background-color: #000;
 	/* background: rgba(0, 0, 0, 0.18); */
 }
 #header .header-content {
 	margin: 0 auto;
 	max-width: 1170px;
-	padding: 40px 0;
+	padding: 23px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -129,14 +130,14 @@ ul li {
 	margin-top: -10px;
 }
 #header.fixed {
-	background-color: #810038;
+	background-color: #000;
 }
 #header.fixed a {
 	/* color: #000; */
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 0;
+	padding: 19px 26px 15px 0px;
 }
 #header.fixed .nav-toggle {
 	top: 18px;
@@ -152,7 +153,9 @@ ul li {
 }
 .navigation {
 	float: right;
+	    margin-top: 6px;
 }
+
 .navigation li {
 	display: inline-block;
 }
@@ -346,7 +349,7 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #810038;
+	background-color: #63c7c7;
 	/* color: #000; */
 }
 .intro h3 {
@@ -392,7 +395,7 @@ Common Styles
 }
 .services-content:before {
     content: '';
-    background: #810038;
+    background: #63c7c7;
     padding: 2px;
     width: 100%;
     top: -6px;
@@ -405,11 +408,11 @@ Common Styles
     transform: rotate(3deg);
 }
 .services .icon {
-	color: #810038;
+	color: #63c7c7;
 	font-size: 38px;
 	/* padding-left: 15px; */
 	float: left;
-	/* background: #810038; */
+	/* background: #63c7c7; */
 	width: 90px;
 	position: absolute;
 	top: 40%;
@@ -612,9 +615,12 @@ About
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #810038;
+	color: #63c7c7;
 }
-
+.logo-img{
+	height: 40px;
+	width: 42px;
+}
 #pricing5 h2 {
 	/* margin: 0; */
 	/* font-size: 36px; */
@@ -744,8 +750,8 @@ ul.list-default li {
 	float: none;
 }
 .social-icons a, .footer .footer-share a {
-	border: 1px solid #810038;
-	color: #810038;
+	border: 1px solid #63c7c7;
+	color: #63c7c7;
 	display: block;
 	font-size: 14px;
 	height: 32px;
@@ -755,8 +761,8 @@ ul.list-default li {
 	width: 32px;
 }
 .social-icons a:hover {
-	background-color: #810038;
-	border-color: #810038;
+	background-color: #63c7c7;
+	border-color: #63c7c7;
 	color: #fff;
 }
 /* ------------------------------------------------------------------------------
@@ -838,7 +844,7 @@ ul.list-default li {
 	border: #e0e0e0 1px solid;
 }
 .conForm .submitBnt {
-	background: #810038;
+	background: #63c7c7;
 	color: #fff;
 	margin-top: 30px;
 	padding:15px 30px 15px 30px;
@@ -910,7 +916,7 @@ footer.footer h2 {
 	color: rgba(255, 255, 255, 0.50);
 }
 .footer a:hover {
-	color: #810038;
+	color: #63c7c7;
 }
 .footer .footer-share {
 	margin-top: 0;
