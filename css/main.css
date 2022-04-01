@@ -365,7 +365,7 @@ ul li {
 /* -----------------------------------------------------------------------------
 Common Styles
 ------------------------------------------------------------------------------- */
-.section-header{text-align: center;padding-bottom: 60px;}
+.section-header{text-align: center;padding-bottom: 40px;}
 .section-header h2{
 	
 }
@@ -510,7 +510,7 @@ Common Styles
 .services-content h5 {
     margin-bottom: 20px;
 }
-.video-section{padding: 88px 0 20px;}
+.video-section{padding: 42px 0 54px;}
 address {
     line-height: 1.42857143;
     color: #969696 !important;
