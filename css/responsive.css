@@ -11,6 +11,9 @@
      top: 3%;
 
 }
+.director-content{
+	margin-left: 4%;
+}
  .navigation {
  position: fixed;
  background-color: #313131;
@@ -69,6 +72,19 @@
 	height: 20%;
     width: 38%;
 }
+.director-content{
+	margin-left: 4%;
+	margin-bottom: 6%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.director-container{
+	padding: 7%
+}
 }
 @media screen and (max-width: 768px) { 
 #header.fixed a {
@@ -106,6 +122,11 @@
  .testimonials p {
  font-size: 12px;
 }
+.director-content{
+	margin-left: 5%;
+	margin-bottom: 8%;
+}
+}
 @media screen and (max-width: 480px) {
  .banner-text {
  padding-top: 45%;
@@ -115,6 +136,10 @@
 }
  .testimonials p {
  font-size: 12px;
+}
+.director-content{
+	margin-left: 4%;
+}
 }
 @media screen and (max-width: 320px) {
  .banner-text {
@@ -126,4 +151,9 @@
  .testimonials p {
  font-size: 12px;
 }
+.director-content{
+	margin-left: 4%;
 }
+}
+
+
