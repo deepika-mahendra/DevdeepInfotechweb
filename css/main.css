@@ -781,7 +781,7 @@ ul.list-default li {
 }
 .testimonials h1 {
 	color: #fff;
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 300;
 	line-height: 28px;
 	font-weight: bolder;
@@ -983,7 +983,7 @@ footer.footer h2 {
  }
 
  .contact-us a:hover {
- 	color: #faaa35;
+ 		color: pink;
  }
 
  .contact-us span {
